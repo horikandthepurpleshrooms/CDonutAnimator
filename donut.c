@@ -1,22 +1,18 @@
 #include <stdio.h>
-
 #include <string.h>
-
 #include <math.h>
 
 int k;
-
-double sin(),cos();
 
 int main() {
     float A = 0, B = 0, i, j, z[1998];
     char b[1998];
     printf("\x1b[2J");
     for(;;) {
-        memset(b,32,1760);
-        memset(z,0,7040);
-        for(j=0; j < 6.28; j += 0.004) {
-            for(i=0; i < 6.28; i += 0.035) {
+        memset(b, 32, 1760);
+        memset(z, 0, 7040);
+        for(j = 0; j < 6.28; j += 0.004) {
+            for(i = 0; i < 6.28; i += 0.035) {
                 float c = sin(i);
                 float d = cos(j);
                 float e = sin(A);
@@ -29,7 +25,7 @@ int main() {
                 float n = sin(B);
                 float t = c * h * g - f * e;
                 int x = 40 + 30 * D * (l * h * m - t * n);
-                int y= 12 + 15 * D * (l * h * n + t * m);
+                int y = 12 + 15 * D * (l * h * n + t * m);
                 int o = x + 80 * y;
                 int N = 8 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n);
                 if(22 > y && y > 0 && x > 0 && 80 > x && D > z[o]) {
