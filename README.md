@@ -1,6 +1,6 @@
-# donut
+# CDonutAnimator
 
-Run it in your terminal! 🍩
+CDonutAnimator runs an ASCII animation of a donut in your terminal. Written in C, this project showcases a fun and visually engaging way to display animations directly in the terminal. 🍩
 
 ### How to run?
 
